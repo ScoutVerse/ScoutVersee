@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+}
+
+header .navigation .container .box-navigation .box h1{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.507);
+    margin-left: 10px;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #051923;
+}
+
+header .container .navigation{
+    width: 100% ;
+    padding: 20px 0 10px 0;
+}
+
+header .container .box-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navigation .box-navigation .box{
+    margin-top: 10px;
+}
+
+header .navigation .box-navigation .box:nth-child(1) h1{
+    margin-left: 20%;
+}
+
+header .navigation .box-navigation .box:nth-child(2) a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.507);
+    margin-right: 50px;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+header .navigation .box-navigation .box:nth-child(2) a:hover{
+    color: rgb(219, 180, 79);
+}
+
+/* aboaut */
+
+.about .container .box-about {
+    height: 100vh;
+    width: 100vh;
+    background-color: #85f308;
+}
+
+.about .container .box-about .box{
+    background-color: aqua;
+}
